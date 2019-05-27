@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:HMI_VERA-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L HMI_VERA-rescue:THD10-1211N-Regulator_Switching U1
+L HMI_VERA:THD10-1211N-Regulator_Switching U1
 U 1 1 5C576F12
 P 2800 1200
 F 0 "U1" H 3150 950 50  0000 C CNN
@@ -39,7 +38,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 1200 2300 1200
 $Comp
-L HMI_VERA-rescue:RPI_Zero_Pinout-Connector U4
+L HMI_VERA:RPI_Zero_Pinout-Connector U4
 U 1 1 5C592E58
 P 7650 3700
 F 0 "U4" H 8250 2600 50  0000 C CNN
@@ -50,7 +49,7 @@ F 3 "" H 8250 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HMI_VERA-rescue:RPI_Zero_RCA_Pinout-Connector U5
+L HMI_VERA:RPI_Zero_RCA_Pinout-Connector U5
 U 1 1 5C592ED0
 P 8050 5300
 F 0 "U5" H 7850 5500 50  0000 C CNN
@@ -141,7 +140,6 @@ Wire Wire Line
 	8400 2750 8400 2850
 Wire Wire Line
 	8400 2750 8550 2750
-Connection ~ 8400 2750
 $Comp
 L power:+5V #PWR030
 U 1 1 5C5971EE
