@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:HMI_VERA-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -38,36 +39,14 @@ Wire Wire Line
 Wire Wire Line
 	2250 1200 2300 1200
 $Comp
-L HMI_VERA:RPI_Zero_Pinout-Connector U4
+L HMI_VERA:RPI_3B+_Pinout-Connector U4
 U 1 1 5C592E58
 P 7650 3700
-F 0 "U4" H 8250 2600 50  0000 C CNN
-F 1 "RPI_Zero_Pinout" H 7300 4800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8250 2600 50  0001 C CNN
+F 0 "U4" H 8250 2400 50  0000 C CNN
+F 1 "RPI_3B+_Pinout_With_RUN" H 7500 4800 50  0000 C CNN
+F 2 "VeraHMI-PCB:RPI_3B+_withRun" H 8250 2600 50  0001 C CNN
 F 3 "" H 8250 2600 50  0001 C CNN
 	1    7650 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L HMI_VERA:RPI_Zero_RCA_Pinout-Connector U5
-U 1 1 5C592ED0
-P 8050 5300
-F 0 "U5" H 7850 5500 50  0000 C CNN
-F 1 "RPI_Zero_RCA_Pinout" H 8050 5100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8250 5100 50  0001 C CNN
-F 3 "" H 8250 5100 50  0001 C CNN
-	1    8050 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J10
-U 1 1 5C593765
-P 9000 5250
-F 0 "J10" H 9099 5226 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9099 5135 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9000 5250 50  0001 C CNN
-F 3 " ~" H 9000 5250 50  0001 C CNN
-	1    9000 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -293,20 +272,6 @@ Text Notes 1500 800  0    50   ~ 0
 12V -> 5V and 3.3V
 Text Notes 5000 800  0    50   ~ 0
 Max 800mA from 3.3V
-Wire Wire Line
-	8650 5250 8650 5550
-Wire Wire Line
-	8650 5550 8850 5550
-Wire Wire Line
-	9000 5550 9000 5450
-Wire Wire Line
-	8400 5250 8650 5250
-Wire Wire Line
-	8400 5350 8750 5350
-Wire Wire Line
-	8750 5350 8750 5250
-Wire Wire Line
-	8750 5250 8800 5250
 $Comp
 L Device:R R1
 U 1 1 5C5878DF
@@ -578,18 +543,14 @@ SpeedOmeter
 $Comp
 L power:GND #PWR025
 U 1 1 5C58EC72
-P 6850 4800
-F 0 "#PWR025" H 6850 4550 50  0001 C CNN
-F 1 "GND" H 6855 4627 50  0000 C CNN
-F 2 "" H 6850 4800 50  0001 C CNN
-F 3 "" H 6850 4800 50  0001 C CNN
-	1    6850 4800
+P 6400 4700
+F 0 "#PWR025" H 6400 4450 50  0001 C CNN
+F 1 "GND" H 6405 4527 50  0000 C CNN
+F 2 "" H 6400 4700 50  0001 C CNN
+F 3 "" H 6400 4700 50  0001 C CNN
+	1    6400 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 4650 6850 4650
-Wire Wire Line
-	6850 4650 6850 4800
 Text GLabel 9500 3400 2    50   Input ~ 0
 SpeedOmeter
 Wire Notes Line
@@ -721,23 +682,6 @@ Wire Wire Line
 	1500 5900 1650 5900
 Wire Wire Line
 	1650 5900 1650 6000
-$Comp
-L power:GND #PWR026
-U 1 1 5C67465C
-P 7600 5450
-F 0 "#PWR026" H 7600 5200 50  0001 C CNN
-F 1 "GND" H 7605 5277 50  0000 C CNN
-F 2 "" H 7600 5450 50  0001 C CNN
-F 3 "" H 7600 5450 50  0001 C CNN
-	1    7600 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 5350 7600 5350
-Wire Wire Line
-	7600 5350 7600 5450
-Wire Wire Line
-	7450 5250 7700 5250
 Wire Wire Line
 	8400 3250 8750 3250
 Wire Wire Line
@@ -832,7 +776,7 @@ Wire Wire Line
 	3000 6200 2750 6200
 Text GLabel 1800 5450 2    50   Output ~ 0
 RUN
-Text GLabel 7450 5250 0    50   Input ~ 0
+Text GLabel 6750 4850 0    50   Input ~ 0
 RUN
 Wire Wire Line
 	1400 5450 1800 5450
@@ -1220,18 +1164,11 @@ F 3 "" H 1650 6600 50  0001 C CNN
 	1    1650 6600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5C689877
-P 8850 5550
-F 0 "#PWR0101" H 8850 5300 50  0001 C CNN
-F 1 "GND" H 8855 5377 50  0000 C CNN
-F 2 "" H 8850 5550 50  0001 C CNN
-F 3 "" H 8850 5550 50  0001 C CNN
-	1    8850 5550
-	1    0    0    -1  
-$EndComp
-Connection ~ 8850 5550
 Wire Wire Line
-	8850 5550 9000 5550
+	6750 4850 6900 4850
+Wire Wire Line
+	6400 4700 6400 4650
+Wire Wire Line
+	6400 4650 6900 4650
+NoConn ~ 8400 4850
 $EndSCHEMATC
