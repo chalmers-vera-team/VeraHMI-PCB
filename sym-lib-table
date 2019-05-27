@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name HMI_VERA-rescue)(type Legacy)(uri ${KIPRJMOD}/HMI_VERA-rescue.lib)(options "")(descr ""))
+)
