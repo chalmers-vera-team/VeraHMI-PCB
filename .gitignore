@@ -30,6 +30,6 @@ _autosave-*
 # Gerbers
 *.gbr
 *.drl
-hmi_gerbers.zip
+*.zip
 
 *.png

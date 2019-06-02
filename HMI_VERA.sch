@@ -525,10 +525,8 @@ Wire Wire Line
 Wire Wire Line
 	1900 4450 1900 4550
 Wire Wire Line
-	1400 4650 1400 5050
-Wire Wire Line
-	1400 5050 2000 5050
-Text GLabel 2000 5050 2    50   Output ~ 0
+	1400 4650 1400 5000
+Text GLabel 2000 5000 2    50   Output ~ 0
 SpeedOmeter
 $Comp
 L power:GND #PWR025
@@ -552,11 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 3950 3150 3950
 Wire Wire Line
-	3400 4450 3400 4150
-Wire Wire Line
-	3400 4150 6900 4150
-Wire Wire Line
-	2350 4450 3400 4450
+	2350 4450 3050 4450
 $Comp
 L Device:R R6
 U 1 1 5C5BBA0A
@@ -609,18 +603,6 @@ F 3 " ~" H 2450 6600 50  0001 C CNN
 	1    2450 6600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1400 5250 3500 5250
-Wire Wire Line
-	3500 5250 3500 4250
-Wire Wire Line
-	3500 4250 6900 4250
-Wire Wire Line
-	1400 5350 3600 5350
-Wire Wire Line
-	3600 5350 3600 4350
-Wire Wire Line
-	3600 4350 6900 4350
 Connection ~ 5550 3450
 $Comp
 L Device:C C12
@@ -1024,28 +1006,6 @@ Wire Wire Line
 	8700 4150 8600 4150
 Connection ~ 8600 4150
 $Comp
-L Device:R R7
-U 1 1 5CF347A3
-P 6500 2350
-F 0 "R7" H 6570 2396 50  0000 L CNN
-F 1 "300k" H 6570 2305 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6430 2350 50  0001 C CNN
-F 3 "~" H 6500 2350 50  0001 C CNN
-	1    6500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5CF34877
-P 6500 2750
-F 0 "R8" H 6570 2796 50  0000 L CNN
-F 1 "100k" H 6570 2705 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6430 2750 50  0001 C CNN
-F 3 "~" H 6500 2750 50  0001 C CNN
-	1    6500 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Fuse F1
 U 1 1 5CF72505
 P 2200 1250
@@ -1111,33 +1071,6 @@ Wire Wire Line
 	6650 3700 6800 3700
 Wire Wire Line
 	6800 3700 6800 3950
-$Comp
-L power:+BATT #PWR032
-U 1 1 5CF29E64
-P 6500 2100
-F 0 "#PWR032" H 6500 1950 50  0001 C CNN
-F 1 "+BATT" H 6515 2273 50  0000 C CNN
-F 2 "" H 6500 2100 50  0001 C CNN
-F 3 "" H 6500 2100 50  0001 C CNN
-	1    6500 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 2100 6500 2200
-Wire Wire Line
-	6500 2900 6500 2950
-Connection ~ 6500 2950
-Wire Wire Line
-	6500 2500 6500 2550
-Wire Wire Line
-	6500 2550 6800 2550
-Wire Wire Line
-	6800 2550 6800 2950
-Wire Wire Line
-	6800 2950 6900 2950
-Connection ~ 6500 2550
-Wire Wire Line
-	6500 2550 6500 2600
 Wire Wire Line
 	5900 3450 5900 4050
 Wire Wire Line
@@ -1145,4 +1078,89 @@ Wire Wire Line
 Wire Wire Line
 	5900 4050 6900 4050
 NoConn ~ 8400 3250
+$Comp
+L Device:R R?
+U 1 1 5CF528E1
+P 3450 4500
+F 0 "R?" H 3520 4546 50  0000 L CNN
+F 1 "300k" H 3520 4455 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 4500 50  0001 C CNN
+F 3 "~" H 3450 4500 50  0001 C CNN
+	1    3450 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF528E7
+P 3650 4700
+F 0 "R?" H 3720 4746 50  0000 L CNN
+F 1 "100k" H 3720 4655 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3580 4700 50  0001 C CNN
+F 3 "~" H 3650 4700 50  0001 C CNN
+	1    3650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4450 3250 4500
+NoConn ~ 6900 2950
+Wire Wire Line
+	4000 5350 4000 4350
+Wire Wire Line
+	4000 4350 6900 4350
+Wire Wire Line
+	1400 5350 4000 5350
+$Comp
+L power:+12V #PWR?
+U 1 1 5CF75E17
+P 1500 5250
+F 0 "#PWR?" H 1500 5100 50  0001 C CNN
+F 1 "+12V" H 1515 5423 50  0000 C CNN
+F 2 "" H 1500 5250 50  0001 C CNN
+F 3 "" H 1500 5250 50  0001 C CNN
+	1    1500 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5000 2000 5000
+Wire Wire Line
+	1500 5250 1400 5250
+$Comp
+L power:+12V #PWR?
+U 1 1 5CF87996
+P 3250 4450
+F 0 "#PWR?" H 3250 4300 50  0001 C CNN
+F 1 "+12V" H 3265 4623 50  0000 C CNN
+F 2 "" H 3250 4450 50  0001 C CNN
+F 3 "" H 3250 4450 50  0001 C CNN
+	1    3250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4500 3250 4500
+Wire Wire Line
+	3600 4500 3650 4500
+Wire Wire Line
+	3650 4500 3650 4550
+$Comp
+L power:GND #PWR?
+U 1 1 5CF9B200
+P 3650 4900
+F 0 "#PWR?" H 3650 4650 50  0001 C CNN
+F 1 "GND" H 3655 4727 50  0000 C CNN
+F 2 "" H 3650 4900 50  0001 C CNN
+F 3 "" H 3650 4900 50  0001 C CNN
+	1    3650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4900 3650 4850
+Wire Wire Line
+	3050 4150 3050 4450
+Wire Wire Line
+	3050 4150 6900 4150
+Wire Wire Line
+	3650 4500 3650 4250
+Wire Wire Line
+	3650 4250 6900 4250
+Connection ~ 3650 4500
 $EndSCHEMATC
