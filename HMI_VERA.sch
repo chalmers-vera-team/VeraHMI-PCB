@@ -22,6 +22,7 @@ F 0 "U1" H 3500 950 50  0000 C CNN
 F 1 "THD10-1211N" H 3050 1450 50  0000 C CNN
 F 2 "Package_DIP:DIP-24_W15.24mm_Socket_LongPads" H 3500 950 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/687/thd10n-datasheet-542143.pdf" H 3500 950 50  0001 C CNN
+F 4 "-" H 3150 1200 50  0001 C CNN "Elfa art nr"
 	1    3150 1200
 	1    0    0    -1  
 $EndComp
@@ -46,6 +47,7 @@ F 0 "U4" H 8250 2400 50  0000 C CNN
 F 1 "RPI_3B+_Pinout_With_RUN" H 7500 4800 50  0000 C CNN
 F 2 "VeraHMI-PCB:RPI_3B+_withRun" H 8250 2600 50  0001 C CNN
 F 3 "" H 8250 2600 50  0001 C CNN
+F 4 "-" H 7650 3700 50  0001 C CNN "Elfa art nr"
 	1    7650 3700
 	1    0    0    -1  
 $EndComp
@@ -87,6 +89,7 @@ F 0 "J8" H 1750 1550 50  0000 C CNN
 F 1 "Conn_01x03" H 1670 1116 50  0000 C CNN
 F 2 "VeraHMI-PCB:205-15EDGRC-2.5-03P" H 1750 1350 50  0001 C CNN
 F 3 "~" H 1750 1350 50  0001 C CNN
+F 4 "301-27-643, 301-27-620" H 1750 1350 50  0001 C CNN "Elfa art nr"
 	1    1750 1350
 	-1   0    0    1   
 $EndComp
@@ -132,6 +135,7 @@ F 0 "J1" H 1200 3350 50  0000 C CNN
 F 1 "Conn_01x03" H 1120 2916 50  0000 C CNN
 F 2 "VeraHMI-PCB:205-15EDGRC-2.5-03P" H 1200 3150 50  0001 C CNN
 F 3 "~" H 1200 3150 50  0001 C CNN
+F 4 "301-27-643, 301-27-620" H 1200 3150 50  0001 C CNN "Elfa art nr"
 	1    1200 3150
 	-1   0    0    1   
 $EndComp
@@ -143,6 +147,7 @@ F 0 "J2" H 1200 4050 50  0000 C CNN
 F 1 "Conn_01x03" H 1120 3616 50  0000 C CNN
 F 2 "VeraHMI-PCB:205-15EDGRC-2.5-03P" H 1200 3850 50  0001 C CNN
 F 3 "~" H 1200 3850 50  0001 C CNN
+F 4 "301-27-643, 301-27-620" H 1200 3850 50  0001 C CNN "Elfa art nr"
 	1    1200 3850
 	-1   0    0    -1  
 $EndComp
@@ -154,6 +159,7 @@ F 0 "J3" H 1200 4750 50  0000 C CNN
 F 1 "Conn_01x03" H 1120 4316 50  0000 C CNN
 F 2 "VeraHMI-PCB:205-15EDGRC-2.5-03P" H 1200 4550 50  0001 C CNN
 F 3 "~" H 1200 4550 50  0001 C CNN
+F 4 "301-27-643, 301-27-620" H 1200 4550 50  0001 C CNN "Elfa art nr"
 	1    1200 4550
 	-1   0    0    1   
 $EndComp
@@ -165,6 +171,7 @@ F 0 "J4" H 1200 5550 50  0000 C CNN
 F 1 "Conn_01x03" H 1120 5116 50  0000 C CNN
 F 2 "VeraHMI-PCB:205-15EDGRC-2.5-03P" H 1200 5350 50  0001 C CNN
 F 3 "~" H 1200 5350 50  0001 C CNN
+F 4 "301-27-643, 301-27-620" H 1200 5350 50  0001 C CNN "Elfa art nr"
 	1    1200 5350
 	-1   0    0    -1  
 $EndComp
@@ -176,6 +183,7 @@ F 0 "C6" H 4765 1446 50  0000 L CNN
 F 1 "10u" H 4765 1355 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4688 1250 50  0001 C CNN
 F 3 "~" H 4650 1400 50  0001 C CNN
+F 4 "301-07-718" H 4650 1400 50  0001 C CNN "Elfa art nr"
 	1    4650 1400
 	1    0    0    -1  
 $EndComp
@@ -187,6 +195,7 @@ F 0 "C7" H 5865 1446 50  0000 L CNN
 F 1 "10u" H 5865 1355 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5788 1250 50  0001 C CNN
 F 3 "~" H 5750 1400 50  0001 C CNN
+F 4 "301-07-718" H 5750 1400 50  0001 C CNN "Elfa art nr"
 	1    5750 1400
 	1    0    0    -1  
 $EndComp
@@ -270,6 +279,7 @@ F 0 "R1" V 2200 2950 50  0000 C CNN
 F 1 "10k" V 2084 2950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 2950 50  0001 C CNN
 F 3 "~" H 2200 2950 50  0001 C CNN
+F 4 " 160-10-615" H 2200 2950 50  0001 C CNN "Elfa art nr"
 	1    2200 2950
 	0    1    1    0   
 $EndComp
@@ -281,6 +291,7 @@ F 0 "C1" V 2250 3000 50  0000 L CNN
 F 1 "10n" V 2250 3200 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2238 3000 50  0001 C CNN
 F 3 "~" H 2200 3150 50  0001 C CNN
+F 4 "301-28-764" H 2200 3150 50  0001 C CNN "Elfa art nr"
 	1    2200 3150
 	0    -1   -1   0   
 $EndComp
@@ -329,6 +340,7 @@ F 0 "R2" V 2200 3450 50  0000 C CNN
 F 1 "10k" V 2084 3450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 3450 50  0001 C CNN
 F 3 "~" H 2200 3450 50  0001 C CNN
+F 4 " 160-10-615" H 2200 3450 50  0001 C CNN "Elfa art nr"
 	1    2200 3450
 	0    1    1    0   
 $EndComp
@@ -340,6 +352,7 @@ F 0 "C2" V 2250 3500 50  0000 L CNN
 F 1 "10n" V 2250 3700 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2238 3500 50  0001 C CNN
 F 3 "~" H 2200 3650 50  0001 C CNN
+F 4 "301-28-764" H 2200 3650 50  0001 C CNN "Elfa art nr"
 	1    2200 3650
 	0    -1   -1   0   
 $EndComp
@@ -389,6 +402,7 @@ F 0 "R3" V 2200 3950 50  0000 C CNN
 F 1 "10k" V 2084 3950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 3950 50  0001 C CNN
 F 3 "~" H 2200 3950 50  0001 C CNN
+F 4 " 160-10-615" H 2200 3950 50  0001 C CNN "Elfa art nr"
 	1    2200 3950
 	0    1    1    0   
 $EndComp
@@ -400,6 +414,7 @@ F 0 "C3" V 2250 4000 50  0000 L CNN
 F 1 "10n" V 2250 4200 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2238 4000 50  0001 C CNN
 F 3 "~" H 2200 4150 50  0001 C CNN
+F 4 "301-28-764" H 2200 4150 50  0001 C CNN "Elfa art nr"
 	1    2200 4150
 	0    -1   -1   0   
 $EndComp
@@ -439,6 +454,7 @@ F 0 "R4" V 2200 4450 50  0000 C CNN
 F 1 "10k" V 2084 4450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 4450 50  0001 C CNN
 F 3 "~" H 2200 4450 50  0001 C CNN
+F 4 " 160-10-615" H 2200 4450 50  0001 C CNN "Elfa art nr"
 	1    2200 4450
 	0    1    1    0   
 $EndComp
@@ -450,6 +466,7 @@ F 0 "C4" V 2250 4500 50  0000 L CNN
 F 1 "10n" V 2250 4700 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2238 4500 50  0001 C CNN
 F 3 "~" H 2200 4650 50  0001 C CNN
+F 4 "301-28-764" H 2200 4650 50  0001 C CNN "Elfa art nr"
 	1    2200 4650
 	0    -1   -1   0   
 $EndComp
@@ -559,6 +576,7 @@ F 0 "R6" V 5143 3450 50  0000 C CNN
 F 1 "3k3" V 5234 3450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5280 3450 50  0001 C CNN
 F 3 "~" H 5350 3450 50  0001 C CNN
+F 4 "160-50-238" H 5350 3450 50  0001 C CNN "Elfa art nr"
 	1    5350 3450
 	0    -1   1    0   
 $EndComp
@@ -570,6 +588,7 @@ F 0 "R5" H 5620 3696 50  0000 L CNN
 F 1 "6k2" H 5620 3605 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 3650 50  0001 C CNN
 F 3 "~" H 5550 3650 50  0001 C CNN
+F 4 "160-59-917" H 5550 3650 50  0001 C CNN "Elfa art nr"
 	1    5550 3650
 	-1   0    0    -1  
 $EndComp
@@ -612,6 +631,7 @@ F 0 "C12" H 8865 2846 50  0000 L CNN
 F 1 "100n" H 8865 2755 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 8788 2650 50  0001 C CNN
 F 3 "~" H 8750 2800 50  0001 C CNN
+F 4 "-" H 8750 2800 50  0001 C CNN "Elfa art nr"
 	1    8750 2800
 	1    0    0    -1  
 $EndComp
@@ -623,6 +643,7 @@ F 0 "C13" H 9315 2846 50  0000 L CNN
 F 1 "47u" H 9315 2755 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9238 2650 50  0001 C CNN
 F 3 "~" H 9200 2800 50  0001 C CNN
+F 4 "301-12-286" H 9200 2800 50  0001 C CNN "Elfa art nr"
 	1    9200 2800
 	1    0    0    -1  
 $EndComp
@@ -703,6 +724,7 @@ F 0 "U3" H 5750 5100 50  0000 C CNN
 F 1 "MAX3232" H 4800 7200 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5250 5100 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf" H 5200 6250 50  0001 C CNN
+F 4 "-" H 5200 6150 50  0001 C CNN "Elfa art nr"
 	1    5200 6150
 	1    0    0    -1  
 $EndComp
@@ -745,6 +767,7 @@ F 0 "C8" V 5498 4800 50  0000 C CNN
 F 1 "100n" V 5589 4800 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5788 4650 50  0001 C CNN
 F 3 "~" H 5750 4800 50  0001 C CNN
+F 4 "-" H 5750 4800 50  0001 C CNN "Elfa art nr"
 	1    5750 4800
 	0    1    1    0   
 $EndComp
@@ -775,6 +798,7 @@ F 0 "C5" H 4315 5446 50  0000 L CNN
 F 1 "100n" H 4315 5355 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4238 5250 50  0001 C CNN
 F 3 "~" H 4200 5400 50  0001 C CNN
+F 4 "-" H 4200 5400 50  0001 C CNN "Elfa art nr"
 	1    4200 5400
 	1    0    0    -1  
 $EndComp
@@ -786,6 +810,7 @@ F 0 "C9" H 6265 5446 50  0000 L CNN
 F 1 "100n" H 6265 5355 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 6188 5250 50  0001 C CNN
 F 3 "~" H 6150 5400 50  0001 C CNN
+F 4 "-" H 6150 5400 50  0001 C CNN "Elfa art nr"
 	1    6150 5400
 	1    0    0    -1  
 $EndComp
@@ -797,6 +822,7 @@ F 0 "C10" V 6300 5850 50  0000 C CNN
 F 1 "100n" V 6189 5750 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 6388 5600 50  0001 C CNN
 F 3 "~" H 6350 5750 50  0001 C CNN
+F 4 "-" H 6350 5750 50  0001 C CNN "Elfa art nr"
 	1    6350 5750
 	0    1    1    0   
 $EndComp
@@ -808,6 +834,7 @@ F 0 "C11" V 6300 6150 50  0000 C CNN
 F 1 "100n" V 6189 6050 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 6388 5900 50  0001 C CNN
 F 3 "~" H 6350 6050 50  0001 C CNN
+F 4 "-" H 6350 6050 50  0001 C CNN "Elfa art nr"
 	1    6350 6050
 	0    1    1    0   
 $EndComp
@@ -974,6 +1001,7 @@ F 0 "U2" H 5400 950 50  0000 C CNN
 F 1 "LM1117-3.3" H 5250 1351 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 5250 1200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 5250 1200 50  0001 C CNN
+F 4 "173-27-451" H 5250 1200 50  0001 C CNN "Elfa art nr"
 	1    5250 1200
 	1    0    0    -1  
 $EndComp
@@ -1013,6 +1041,7 @@ F 0 "F1" V 2003 1250 50  0000 C CNN
 F 1 "2A" V 2094 1250 50  0000 C CNN
 F 2 "Fuse_Holders_and_Fuses:BladeFuse-Mini" V 2130 1250 50  0001 C CNN
 F 3 "~" H 2200 1250 50  0001 C CNN
+F 4 "110-29-328" H 2200 1250 50  0001 C CNN "Elfa art nr"
 	1    2200 1250
 	0    1    1    0   
 $EndComp
@@ -1086,6 +1115,7 @@ F 0 "R7" H 3520 4546 50  0000 L CNN
 F 1 "300k" H 3520 4455 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 4500 50  0001 C CNN
 F 3 "~" H 3450 4500 50  0001 C CNN
+F 4 "160-75-089" H 3450 4500 50  0001 C CNN "Elfa art nr"
 	1    3450 4500
 	0    1    1    0   
 $EndComp
@@ -1097,6 +1127,7 @@ F 0 "R8" H 3720 4746 50  0000 L CNN
 F 1 "100k" H 3720 4655 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3580 4700 50  0001 C CNN
 F 3 "~" H 3650 4700 50  0001 C CNN
+F 4 "160-59-438" H 3650 4700 50  0001 C CNN "Elfa art nr"
 	1    3650 4700
 	1    0    0    -1  
 $EndComp
